@@ -2,4 +2,5 @@
 class Greeting:
     @staticmethod
     def do_greeting(username):
+        """Greet the user."""
         return f"Hello, {username}."
